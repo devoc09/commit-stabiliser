@@ -116,7 +116,7 @@ func main() {
 
 	switch {
 	case scpr == "":
-		*cohp = fmt.Sprintf("%s:", ctypes[i].Name) + smpr
+		*cohp = fmt.Sprintf("%s: ", ctypes[i].Name) + smpr
 		fmt.Println(coh)
 	default:
 		*cohp = fmt.Sprintf("%s", ctypes[i].Name) + fmt.Sprintf("(%s): ", scpr) + smpr
